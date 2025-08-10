@@ -1,0 +1,38 @@
+{
+    "name": "panelify/metadata",
+    "description": "Laravel Blade admin module for managing model metadata with CRUD, views, and routes, built on jobmetric/laravel-metadata for seamless Panelio integration.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Majid Mohammadian",
+            "email": "majeedmohammadian@gmail.com",
+            "homepage": "https://www.linkedin.com/in/majidmohammadian/",
+            "role": "Full Stack Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "laravel/framework": ">=9.19",
+        "jobmetric/laravel-package-core": "^1.22",
+        "jobmetric/laravel-metadata": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Panelify\\Metadata\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Panelify\\Metadata\\PanelifyMetadataServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "support": {
+        "issues": "https://github.com/panelify/metadata/issues",
+        "forum": "https://twitter.com/jobmetric",
+        "source": "https://github.com/panelify/metadata"
+    }
+}
